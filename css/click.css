@@ -1,0 +1,34 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #eee;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	width: 50px;
+	font-size: 30px;
+	margin-top: 5px;
+	margin-left: 20px;
+	position: absolute;
+	bottom: 12px;
+}
+
+.box {
+	border: 1px solid #999;
+	position: absolute;
+	width: 480px;
+	height: 50px;
+	margin: 100px;
+}
+
+.box2 {
+	background: yellowgreen;
+	width: 0px;
+	height: 100%;
+}
